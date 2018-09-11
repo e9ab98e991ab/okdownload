@@ -1,0 +1,70 @@
+<!--
+  ~ Copyright (c) 2017 LingoChamp Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name"> OkDownload-Sample </string>
+    <string name="github_url"> https://github.com/lingochamp/okdownload </string>
+    <string name="title_single"> Single </string>
+    <string name="title_multiple">多个</string>
+    <string name="title_queue">队列</string>
+    <string name="title_content_uri">内容Uri </string>
+    <string name="title_notification">通知</string>
+    <string name="start_download">开始下载</string>
+    <string name="cancel_download">取消下载</string>
+    <string name="start_same_task">启动相同任务</string>
+    <string name="start_same_file_task">启动相同文件任务</string>
+    <string name="block_title">阻止％1 $ d（％2 $ s~％3 $ s）</string>
+    <string name="task_title">任务（0~％1 $ s）</string>
+    <string name="get_status">获取状态</string>
+    <string name="github"> GITHUB </string>
+    <string name="start"> START </string>
+    <string name="cancel"> CANCEL </string>
+    <string name="parallel"> Parallel </string>
+    <string name="serial"> Serial </string>
+    <string name="priority"> Priority （％1 $ d）</string>
+    <string name="state_idle" >IDLE</string>
+    <string name="state_pending"> PENDING </string>
+    <string name="state_unknown"> UNKNOWN </string>
+    <string name="state_running"> RUNNING </string>
+    <!--条目列表  -->
+    <string name="single_download_title">单个下载</string>
+    <string name="single_download_desc">在此演示中，您可以看到下载任务的最简单方法。</string>
+    <string name="each_block_progress_title">显示每个块进度</string>
+    <string name="each_block_progress_desc">在此演示中，我们将下载一个任务并显示它的每个块进度。</string>
+    <string name="queue_download_title">队列下载</string>
+    <string name="queue_download_desc">在此演示中，您将看到如何将批处理任务下载为队列并以不同的优先级下载。</string>
+    <string name="task_manager_title">任务管理器</string>
+    <string name="task_manager_desc">在此演示中，我们将使用UnifiedListenerManager来管理所有任务，您可以随时随地为任务附加侦听器。</string>
+    <string name="content_uri_desc" >在这个演示中，我们将使用Content Uri来存储任务的数据，而不是使用可访问的文件路径。</string>
+    <string name="notification_desc">在这个演示中，我们将向您展示简单的案例使用okdownload通知。</string>
+    <string name="comprehensive_case_title">综合案例</string>
+    <string name="comprehensive_case_desc">在这个演示中，您可以看到一个全面的演示，其中有几个标签在页面之间切换。</string>
+    <string name="bunch_download_title"> Bunch Download </string>
+    <string name="bunch_download_desc">在这个演示中，我们将下载数百个关于束的任务和显示它们的过程。</string>
+    <!-- listener --> <string name="info_ready"> Info Ready </string>
+    <string name="task_start">任务开始</string>
+    <string name="connect_trial_start"> Connect Trial Start </string>
+    <string name="connect_trial_end">连接试用结束</string>
+    <string name="download_from_beginning">从开始下载</string>
+    <string name="download_from_breakpoint">从断点下载</string>
+    <string name="connect_start"> Connect Start </string>
+    <string name="connect_end"> Connect End </string>
+    <string name="fetch_start"> Fetch Start </string>
+    <string name="fetch_progress">获取进度</string>
+    <string name="fetch_end">获取结束</string>
+    <string name="delete_files">删除文件</string>
+    <string name="choose_file">选择文件... </string>
+</resources>
